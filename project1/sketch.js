@@ -326,16 +326,16 @@ function drawBackground(col) {
 
 function importImage(photo) {
     background(15);
-    image(photo, margin/2, margin/2, size_w, size_h);
+    image(photo, margin, margin, size_w, size_h);
 }
 
 function writeContent(intro, content, move_h) {
     fill(250, 250, 250, 250);
-    text(intro, margin + size_w, size_h/4, size_w/2, size_h);
+    text(intro, 2 * margin + size_w, size_h/4, size_w/2, size_h);
     fill(250, 250, 250, 200);
     push();
     textSize(20);
-    text(content, margin + size_w, margin + size_h / 4 + move_h, size_w / 2, size_h);
+    text(content, 2 * margin + size_w, margin + size_h / 4 + move_h, size_w / 2, size_h);
     pop();
 }
 
