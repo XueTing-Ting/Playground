@@ -4,8 +4,8 @@ let scene5;
 let scene10;
 let sound;
 let myFont;
-let size_h = 600;
-let size_w = 900;
+let size_h = 400;
+let size_w = 600;
 let margin;
 let scene = 0;
 let typed = "";
@@ -27,7 +27,7 @@ function setup() {
 }
 
 function draw() {
-    margin = (height - size_h) / 2;
+    margin = (height - size_h) / 4;
     ellipseMode(CENTER);
     noStroke();
     /*scene0: story background */
