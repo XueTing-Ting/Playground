@@ -27,7 +27,7 @@ function setup() {
 }
 
 function draw() {
-    margin = (height - size_h) / 10;
+    margin = (height - size_h) / 2;
     ellipseMode(CENTER);
     noStroke();
     /*scene0: story background */
@@ -331,7 +331,7 @@ function importImage(photo) {
 
 function writeContent(intro, content, move_h) {
     fill(250, 250, 250, 250);
-    text(intro, 2 * margin + size_w, size_h/4, size_w/2, size_h);
+    text(intro, 2 * margin + size_w, size_h / 4, size_w / 2, size_h);
     fill(250, 250, 250, 200);
     push();
     textSize(20);
