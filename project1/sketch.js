@@ -27,7 +27,7 @@ function setup() {
 }
 
 function draw() {
-    margin = (height - size_h) / 2;
+    margin = (height - size_h) / 10;
     ellipseMode(CENTER);
     noStroke();
     /*scene0: story background */
