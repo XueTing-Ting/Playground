@@ -334,7 +334,7 @@ function writeContent(intro, content, move_h) {
     text(intro, 2 * margin + size_w, size_h / 4, size_w / 2, size_h);
     fill(250, 250, 250, 200);
     push();
-    textSize(20);
+    textSize(16);
     text(content, 2 * margin + size_w, margin + size_h / 4 + move_h, size_w / 2, size_h);
     pop();
 }
