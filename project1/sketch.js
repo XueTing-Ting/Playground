@@ -4,8 +4,8 @@ let scene5;
 let scene10;
 let sound;
 let myFont;
-let size_h = 400;
-let size_w = 600;
+let size_h = 600;
+let size_w = 900;
 let margin;
 let scene = 0;
 let typed = "";
@@ -27,7 +27,7 @@ function setup() {
 }
 
 function draw() {
-    margin = (height - size_h) / 4;
+    margin = (height - size_h) / 2;
     ellipseMode(CENTER);
     noStroke();
     /*scene0: story background */
@@ -334,7 +334,7 @@ function writeContent(intro, content, move_h) {
     text(intro, 2 * margin + size_w, size_h / 4, size_w / 2, size_h);
     fill(250, 250, 250, 200);
     push();
-    textSize(16);
+    textSize(20);
     text(content, 2 * margin + size_w, margin + size_h / 4 + move_h, size_w / 2, size_h);
     pop();
 }
